@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_height">190.0dip</dimen>
+    <dimen name="btnCallWidth">95.0dip</dimen>
+    <dimen name="btnHeight">60.0dip</dimen>
+    <dimen name="btnWidth">185.0dip</dimen>
+    <dimen name="icons_main_fragment_heigth">55.0dip</dimen>
+    <dimen name="icons_main_fragment_width">55.0dip</dimen>
+    <dimen name="image_view_logo_height">40.0dip</dimen>
+    <dimen name="image_view_logo_width">100.0dip</dimen>
+    <dimen name="text_size">14.0dip</dimen>
+    <dimen name="text_size_logo_dsc">15.0dip</dimen>
+    <dimen name="btnCallHeight">45.0dip</dimen>
+    <dimen name="text_size_call_button">13.0dip</dimen>
+</resources>

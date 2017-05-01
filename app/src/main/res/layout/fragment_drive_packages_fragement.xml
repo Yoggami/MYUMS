@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1.0">
+            <TextView android:textColor="#ff9591aa"
+                      android:gravity="center"
+                      android:id="@+id/textView123"
+                      android:layout_width="fill_parent"
+                      android:layout_height="70.0dip"
+                      android:text="@string/night_drive_dsc" />
+            <View
+                android:background="@drawable/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:weightSum="1.0">
+                <TextView
+                    android:textSize="20.0dip"
+                    android:textColor="#ff3c3f41"
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="@string/night_drive_1_day"
+                    android:layout_weight="1.0" />
+                <Button android:id="@+id/shopDrive1day"
+                        android:background="@drawable/selector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:text="$ 3"
+                        android:textColor="@color/colorAccent"/>
+            </LinearLayout>
+            <View
+                android:background="@drawable/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:weightSum="1.0">
+                <TextView
+                    android:textSize="20.0dip"
+                    android:textColor="#ff3c3f41"
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="@string/night_drive_7_days"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/shopDrive7day"
+                    android:background="@drawable/selector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:text="$ 15" />
+            </LinearLayout>
+            <View
+                android:background="@drawable/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:weightSum="1.0">
+                <TextView
+                    android:textSize="20.0dip"
+                    android:textColor="#ff3c3f41"
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="@string/night_drive_30_day"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/shopDrive30day"
+                    android:background="@drawable/selector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:text="$ 40" />
+            </LinearLayout>
+            <View
+                android:background="@drawable/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
