@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="balance_dialog_items">
+        <item>Balans</item>
+        <item>"Oxirgi to'lov"</item>
+        <item>Mening xarajatlarim</item>
+        <item>Mening raqamim</item>
+        <item>Mening barcha raqamlarim</item>
+    </string-array>
+    <string-array name="call_settings">
+        <item>"Kiruvchi sms va qo'ng'iroqlarni cheklash - Yoqish"</item>
+        <item>"Kiruvchi sms va qo'ng'iroqlarni cheklash - O'chirish"</item>
+        <item>"Chiquvchi qo'ng'iroqlarini cheklash – Yoqish"</item>
+        <item>"Chiquvchi qo'ng'iroqlarini cheklash – O'chirish"</item>
+    </string-array>
+    <string-array name="child_buttons_serv_and_tarif">
+        <item>Xizmatdan foydalanish</item>
+        <item>Xizmatni yoqish</item>
+        <item>"Xizmatni o'chirish"</item>
+        <item>Xizmat holatini tekshirish</item>
+        <item>Tekshirish</item>
+        <item>"Ushbu tarifga o'tish"</item>
+        <item>Xizmatni boshqarish</item>
+    </string-array>
+    <string-array name="language_items">
+        <item>Русский</item>
+        <item>"O'zbekcha"</item>
+    </string-array>
+    <string-array name="services_header_items">
+        <item>"Va'da qilingan to'lov"</item>
+        <item>Chaqiriqni kutish va ushlab turish</item>
+        <item>"Sizga qo'ng'iroq qilishdi &amp; Men aloqadaman!"</item>
+        <item>AntiAON</item>
+        <item>4G LTE</item>
+        <item>Faollashtirilgan xizmatlarni tekshirish</item>
+        <item>"Xalqaro qo'ng'iroqlar xizmati tariflari"</item>
+        <item>FAMILY</item>
+        <item>Super 0</item>
+    </string-array>
+    <string-array name="settings_internet">
+        <item>Mobil internet sozlamalarini olish</item>
+        <item>Mobil internet xizmatini yoqish</item>
+        <item>"Mobil internet xizmatini o'chirish"</item>
+        <item>"OnNet to'plamini o'chirish"</item>
+    </string-array>
+    <string-array name="tarifs_header_items">
+        <item>START</item>
+        <item>OPTIMA 333</item>
+        <item>ULTRA</item>
+        <item>555</item>
+        <item>MAXI NEW</item>
+        <item>PERFECT</item>
+        <item>777</item>
+    </string-array>
+</resources>

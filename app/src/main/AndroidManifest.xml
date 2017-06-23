@@ -4,8 +4,9 @@
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
+        android:name=".App"
         android:allowBackup="true"
-        android:icon="@mipmap/icon"
+        android:icon="@mipmap/ums_dealer_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -15,10 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.PackagesActivity" android:screenOrientation="portrait" />
-        <activity android:name=".Activities.ServicesActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.SmsMinutesActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.TariffsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.PackagesActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="locale|layoutDirection"/>
+        <activity android:name=".Activities.ServicesActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="locale|layoutDirection"/>
+        <activity android:name=".Activities.SmsMinutesActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="locale|layoutDirection"/>
+        <activity android:name=".Activities.TariffsActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="locale|layoutDirection"/>
     </application>
 
 </manifest>

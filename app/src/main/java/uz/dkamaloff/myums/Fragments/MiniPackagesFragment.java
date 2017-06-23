@@ -88,6 +88,7 @@ public class MiniPackagesFragment extends Fragment {
 			switch (v.getId()) {
 				case R.id.trafficMiniBalance /*2131558568*/:
 					MiniPackagesFragment.this.startActivityForResult(new Intent("android.intent.action.CALL", Uri.parse("tel:" + ("*171*019" + Uri.encode("#")))), 1);
+					break;
 				case R.id.shop50miniPackage /*2131558569*/:
 					MiniPackagesFragment.this.builder = new AlertDialog.Builder(MiniPackagesFragment.this.getActivity());
 					MiniPackagesFragment.this.builder.setTitle(MiniPackagesFragment.this.getString(R.string.shop_mini_50_package));

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="balance_dialog_items">
+        <item>Баланс</item>
+        <item>Последняя оплата</item>
+        <item>Мой расход</item>
+        <item>Мой номер</item>
+        <item>Все мои номера</item>
+    </string-array>
+    <string-array name="call_settings">
+        <item>Запрет входящих звонков и SMS – включить</item>
+        <item>Запрет входящих звонков и SMS - отключить</item>
+        <item>Запрет исходящих звонков – включить</item>
+        <item>Запрет исходящих звонков – отключить</item>
+    </string-array>
+    <string-array name="child_buttons_serv_and_tarif">
+        <item>Получить</item>
+        <item>Активировать</item>
+        <item>Деактивировать</item>
+        <item>Проверка статуса</item>
+        <item>Проверить</item>
+        <item>Перейти</item>
+        <item>Управления услугой</item>
+    </string-array>
+    <string-array name="language_items">
+        <item>Русский</item>
+        <item>"O'zbekcha"</item>
+    </string-array>
+    <string-array name="services_header_items">
+        <item>Обещанный платеж</item>
+        <item>Ожидание и удержание вызова</item>
+        <item>Вам звонили &amp; Я на связи</item>
+        <item>АнтиАОН</item>
+        <item>4G LTE</item>
+        <item>Проверка активных услуг</item>
+        <item>Тарифы на международные звонки</item>
+        <item>FAMILY</item>
+        <item>Super 0</item>
+    </string-array>
+    <string-array name="settings_internet">
+        <item>Получить настройки интернета</item>
+        <item>Включить мобильный интернет</item>
+        <item>Отключить мобильный интернет</item>
+        <item>Отключение пакета OnNet</item>
+    </string-array>
+    <string-array name="tarifs_header_items">
+        <item>START</item>
+        <item>OPTIMA 333</item>
+        <item>ULTRA</item>
+        <item>555</item>
+        <item>MAXI NEW</item>
+        <item>PERFECT</item>
+        <item>777</item>
+    </string-array>
+</resources>

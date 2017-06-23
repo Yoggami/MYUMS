@@ -11,9 +11,6 @@ import uz.dkamaloff.myums.R;
 
 
 public class TariffsActivity extends AppCompatActivity {
-	private RecyclerAdapterTariffs mRecyclerAdapterTariffs;
-	private RecyclerView mRecyclerView;
-	private RecyclerView.LayoutManager mLayoutManager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +19,11 @@ public class TariffsActivity extends AppCompatActivity {
 		setTitle(R.string.title_tariffs_activity);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-		mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view_tariffs);
-		mLayoutManager = new LinearLayoutManager(this);
-		mRecyclerView.setLayoutManager(mLayoutManager);
-		mRecyclerAdapterTariffs = new RecyclerAdapterTariffs(this);
-		mRecyclerView.setAdapter(mRecyclerAdapterTariffs);
+		RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view_tariffs);
+		RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+		recyclerView.setLayoutManager(layoutManager);
+		RecyclerAdapterTariffs recyclerAdapterTariffs = new RecyclerAdapterTariffs(this);
+		recyclerView.setAdapter(recyclerAdapterTariffs);
 	}
 
 	@Override

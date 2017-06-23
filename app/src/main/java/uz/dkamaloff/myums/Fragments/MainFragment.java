@@ -20,7 +20,6 @@ import uz.dkamaloff.myums.Activities.PackagesActivity;
 import uz.dkamaloff.myums.Activities.ServicesActivity;
 import uz.dkamaloff.myums.Activities.SmsMinutesActivity;
 import uz.dkamaloff.myums.Activities.TariffsActivity;
-import uz.dkamaloff.myums.MainActivity;
 import uz.dkamaloff.myums.Model.Constants;
 import uz.dkamaloff.myums.R;
 

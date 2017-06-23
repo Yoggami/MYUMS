@@ -23,7 +23,7 @@ public class Constants {
 		this.myPayments = "*171*1*3";
 		this.myNumber = "*150";
 		this.allMyNumbers = "*151";
-		this.dealerId = "123456";
+		this.dealerId = "010900119";
 	}
 
 	public String getEncodeHash() {

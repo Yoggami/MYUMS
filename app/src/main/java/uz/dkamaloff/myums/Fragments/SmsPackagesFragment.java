@@ -48,7 +48,7 @@ public class SmsPackagesFragment extends Fragment {
 			}
 
 			public void onClick(DialogInterface dialog, int which) {
-				SmsPackagesFragment.this.startActivityForResult(new Intent("android.intent.action.CALL", Uri.parse("tel:" + ("*171*018*100*1*" + mConstants.getDealerId() + "*1" + Uri.encode("#")))), 1);
+				SmsPackagesFragment.this.startActivityForResult(new Intent("android.intent.action.CALL", Uri.parse("tel:" + ("*111*018*1" + Uri.encode("#")))), 1);
 				dialog.dismiss();
 			}
 		}
@@ -67,7 +67,7 @@ public class SmsPackagesFragment extends Fragment {
 			}
 
 			public void onClick(DialogInterface dialog, int which) {
-				SmsPackagesFragment.this.startActivityForResult(new Intent("android.intent.action.CALL", Uri.parse("tel:" + ("*171*018*300*1" + mConstants.getDealerId() + "*1" + Uri.encode("#")))), 1);
+				SmsPackagesFragment.this.startActivityForResult(new Intent("android.intent.action.CALL", Uri.parse("tel:" + ("*111*018*2" + Uri.encode("#")))), 1);
 				dialog.dismiss();
 			}
 		}

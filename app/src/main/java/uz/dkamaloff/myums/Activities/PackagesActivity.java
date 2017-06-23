@@ -31,8 +31,6 @@ import uz.dkamaloff.myums.R;
 public class PackagesActivity extends AppCompatActivity{
 
 	private Toolbar mToolbar;
-	private ViewPager mViewPager;
-	private TabLayout mTabLayout;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +40,11 @@ public class PackagesActivity extends AppCompatActivity{
 
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-		mViewPager = (ViewPager) findViewById(R.id.viewPager);
-		setupViewPager(mViewPager);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+		setupViewPager(viewPager);
 
-		mTabLayout = (TabLayout) findViewById(R.id.tabs);
-		mTabLayout.setupWithViewPager(mViewPager);
+		TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+		tabLayout.setupWithViewPager(viewPager);
 	}
 
 	private void setupViewPager(ViewPager viewPager) {

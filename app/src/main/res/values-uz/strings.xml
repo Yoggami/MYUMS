@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Yangiliklar</string>
+    <string name="activate">Xizmatni yoqish</string>
+    <string name="activte_service_alert_title">Xizmatni yoqasizmi?</string>
+    <string name="app_name">Mening UMS</string>
+    <string name="btnObshenie">Muloqot</string>
+    <string name="btn_balance">Balans</string>
+    <string name="btn_call">"Qo'ng'iroq qilish"</string>
+    <string name="btn_call_alert_title">"Qo'ng'iroq qilasizmi?"</string>
+    <string name="btn_options">"Daqiqa/sms to'plamlar"</string>
+    <string name="btn_ostatok_trafika">"To'plam qoldig'ini bilish"</string>
+    <string name="btn_pack">"To'plamlar"</string>
+    <string name="btn_packages">"Internet to'plamlar"</string>
+    <string name="btn_services">Xizmatlar</string>
+    <string name="btn_shop">Ulash</string>
+    <string name="btn_tariffs">Tariflar</string>
+    <string name="change_tarif_btn">"Ushbu tarifga o'tish"</string>
+    <string name="channge_tarif_555_alert">"555 tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_777_alert">"777 tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_alert">"Tarif o'zgartirish"</string>
+    <string name="channge_tarif_baraka_alert">"BARAKA tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_maxi_new_alert">"MAXI NEW tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_optima_alert">"OPTIMA 333 tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_perfect_alert">"PERFECT tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_start_alert">"TERMINAL tarifiga o'tasizmi?"</string>
+    <string name="channge_tarif_ultra_alert">"ULTRA tarifiga o'tasizmi?"</string>
+    <string name="check">Tekshirish</string>
+    <string name="check_connection">"Internet ulanishini tekshirib yana urinib ko'ring"</string>
+    <string name="deactivate">"Xizmatni o'chirish"</string>
+    <string name="deactivate_service_alert_title">"Xizmatni o'chirasizmi?"</string>
+    <string name="get_qarz_alert_title">Xizmatdan foydalanasizmi?</string>
+    <string name="get_qarz_btn">Xizmatdan foydalanish</string>
+    <string name="logo_string">TALABLARGA MOS ALOQA OPERATORI</string>
+    <string name="main_app_title">MY UMS</string>
+    <string name="mini_packages_100_mb">Mini 100 Mb</string>
+    <string name="mini_packages_50_mb">Mini 50 Mb</string>
+    <string name="mini_packages_dsc">"Barcha mini internet to'plamlarning amal qilish muddati 1 sutka"</string>
+    <string name="minutes_120">120 Daqiqa</string>
+    <string name="minutes_180">180 Daqiqa</string>
+    <string name="minutes_300">300 Daqiqa</string>
+    <string name="minutes_package_120">120 Daqiqa</string>
+    <string name="minutes_package_180">180 Daqiqa</string>
+    <string name="minutes_package_300">300 Daqiqa</string>
+    <string name="nav_drawer_item_feedback">"Biz bilan bog'lanish"</string>
+    <string name="nav_drawer_item_language">"Til o'zgartirish"</string>
+    <string name="nav_drawer_item_news">Yangiliklar</string>
+    <string name="nav_drawer_item_rate">Ilovani baholash</string>
+    <string name="nav_drawer_item_share">Ilovani ulashish</string>
+    <string name="nav_drawer_title">Shuningdek</string>
+    <string name="night_1000">Tun 1000 Mb</string>
+    <string name="night_10000">Tun 10000 Mb</string>
+    <string name="night_2000">Tun 2000 Mb</string>
+    <string name="night_20000">Tun 20000 Mb</string>
+    <string name="night_3000">Tun 3000 Mb</string>
+    <string name="night_5000">Tun 5000 Mb</string>
+    <string name="night_50000">Tun 50000 Mb</string>
+    <string name="night_drive_1_day">1 Sutka</string>
+    <string name="night_drive_30_day">30 Sutka</string>
+    <string name="night_drive_7_days">7 Sutka</string>
+    <string name="night_drive_dsc">Tungi DRIVE xizmati abonentlarga har tun soat 00:00dan 08:00gacha internetdan cheksiz foydalanish imkonini beradi</string>
+    <string name="no">"YO'Q"</string>
+    <string name="package_1000">\"To\'plam 2500 Mb\"</string>
+    <string name="package_10000">\"To\'plam 25000 Mb\"</string>
+    <string name="package_2000">\"To\'plam 5000 Mb\"</string>
+    <string name="package_300">\"To\'plam 750 Mb\"</string>
+    <string name="package_3000">\"To\'plam 7500 Mb\"</string>
+    <string name="package_500">\"To\'plam 1250 Mb\"</string>
+    <string name="package_5000">\"To\'plam 12500 Mb\"</string>
+    <string name="request_title">Ruxsat kerak!</string>
+    <string name="request_title_message">"USSD so'rovlarni amalga oshirish uchun, ushbu ilovaga ruxsat kerak"</string>
+    <string name="send_to">Ulashish</string>
+    <string name="service_2_line_dsc">"Suhbat mobaynida javob berish jarayonida boshqa abonent kirish qo'ng'iroqlari (yoki qo'ng'iroq qilgan boshqa abonent) Chaqiriqni kutish rejimi imkonini beradi va kirish chaqiriqlarini mazkur joriy suhbat tugaguniga qadar ushlab turadi, ya'ni navbatma-navbat ikki abonеnt bilan suhbatlashadi."</string>
+    <string name="service_2_line_name">Chaqiriqni kutish va ushlab turish</string>
+    <string name="service_4gLte_dsc">"4G LTE Toshkent shahrining har bir qismida! 
+UMS Interneti ortiqcha harajatsiz 4G LTE tezligida! 
+Xizmatga ulanish narxi – $0,00"</string>
+    <string name="service_4gLte_name">4G LTE</string>
+    <string name="service_active_checks">Faollashtirilgan xizmatlarni tekshirish</string>
+    <string name="service_active_checks_dsc">"*140# USSD-buyrug'i faol xizmatlarni tekshirish imkoniyatini beradi"</string>
+    <string name="service_anti_aon_dsc">"Raqamni aniqlashga qarshilik xizmatidan foydalanish: Abonentlik to'lovi- $0,10 kuniga) Raqamni aniqlashga qarshilik ulanish/xizmatni o'chirish - bepul."</string>
+    <string name="service_anti_aon_name">AntiAON</string>
+    <string name="service_family_dsc">"Xizmatdan foydalanish uchun abonent to'lovi kuniga - $0,10.
+Rossiya Fеdеratsiyasi, Ukraina, Bеlorusiya va Turkmaniston MTS guruhi operatorlari, shuningdek, Armanistonda VIVACell-MTS abonеntlariga chiquvchi qo'g'iroqlar narxi – suhbatning daqiqasi $0,25."</string>
+    <string name="service_family_name">FAMILY</string>
+    <string name="service_qarz_dsc">"Ushbu xizmat kelgusida to'lanadigan mablag' hisobidan aloqa xizmatlaridan foydalanishni davom ettirish uchun o'z hisobvarag'ingizga 3 kun muddatga 3 $ tushirish imkonini beradi. 
+Va'da qilingan to'lov xizmatining amal qilish muddati tugagach, hisobvaraqdan 3,5 $ (berilgan 3 $ va faollashtirish uchun 0,5 $) yechib olinadi."</string>
+    <string name="service_qarz_name">"Va'da qilingan to'lov"</string>
+    <string name="service_rouming_calls_dsc">"Markaziy Osiyo (Tojikiston, Qozog'iston, Turkmaniston, Qirg'iziston) $0,55 
+Rossiya va MDH mamlakatlari $0,75 
+Yevropa $1,65 
+Osiyo $2,05 
+Boshqa mamlakatlar $1,95"</string>
+    <string name="service_rouming_calls_name">"Xalqaro qo'ng'iroqlar"</string>
+    <string name="service_super_0_dsc">"Super 0 xizmati yoqilganda UMS tarmog'i ichida chiquvchi qo'ng'iroqlar uchun bir kalendar oyi muddatiga 15000 daqiqalik to'plam ishga tushadi. 
+Super 0 xizmati yoqilganda Konferents-aloqa xizmati ishlamaydi. 
+Xizmat narxi $1. Ijobiy balansda faollashtirilgan paytda yechib olinadi! 
+Xizmat amal qilish muddati cheklanmagan."</string>
+    <string name="service_super_0_name">Super 0</string>
+    <string name="service_vam_zvonili_dsc">"Yangi ulangan abonentlarga ushbu xizmatini 30 kun davomida bepul ishlatish uchun faollashtirish imkoniyati taqdim etiladi! 
+30 kundan so'ng xizmat narxi $0.02ni tashkil etadi. 
+Amaldagi abonentlar uchun xizmatining abonent to'lovi - kuniga $0,02"</string>
+    <string name="service_vam_zvonili_name">"Sizga qo'ng'iroq qilishdi &amp; Men aloqadaman!"</string>
+    <string name="set_language">Til</string>
+    <string name="share_link">UMS abonentlari uchun qulay ilovani yuklab oling: https://play.google.com/store/apps/details?id=uz.umsdiller.ussdums</string>
+    <string name="shop_10000_night_package">Tun 10000 Mb</string>
+    <string name="shop_10000_package">\"25000 Mb internet to\'plami\"</string>
+    <string name="shop_1000_night_package">Tun 1000 Mb</string>
+    <string name="shop_1000_package">\"2500 Mb internet to\'plami\"</string>
+    <string name="shop_20000_night_package">Tun 20000 Mb</string>
+    <string name="shop_2000_night_package">Tun 2000 Mb</string>
+    <string name="shop_2000_package">\"5000 Mb internet to\'plami\"</string>
+    <string name="shop_3000_night_package">Tun 3000 Mb</string>
+    <string name="shop_3000_package">\"7500 Mb internet to\'plami\"</string>
+    <string name="shop_300_package">\"750 Mb internet to\'plami\"</string>
+    <string name="shop_50000_night_package">Tun 50000 Mb</string>
+    <string name="shop_5000_night_package">Tun 5000 Mb</string>
+    <string name="shop_5000_package">\"12500 Mb internet to\'plami\"</string>
+    <string name="shop_500_package">\"1250 Mb internet to\'plami\"</string>
+    <string name="shop_button_alert">Sotib olasizmi?</string>
+    <string name="shop_drive_1_day_package">Tungi DRIVE 1 sutka</string>
+    <string name="shop_drive_30_day_package">Tungi DRIVE 30 sutka</string>
+    <string name="shop_drive_7_day_package">Tungi DRIVE 7 sutka</string>
+    <string name="shop_mini_100_package">Mini 100 Mb</string>
+    <string name="shop_mini_50_package">Mini 50 Mb</string>
+    <string name="sms_100">SMS 100</string>
+    <string name="sms_300">SMS 300</string>
+    <string name="sms_packages_100">SMS 100</string>
+    <string name="sms_packages_300">SMS 300</string>
+    <string name="status">Xizmat holatini tekshirish</string>
+    <string name="tarif_555_dsc">"555 daqiqa O'zbekiston bo'yicha qo'ng'iroqlar uchun 
+555 MB mobil Internet kiritilgan 
+555 SMS O'zbekiston bo‘yicha 
+$ 8,00 Abonent to'lovi (oyiga)"</string>
+    <string name="tarif_555_name">555</string>
+    <string name="tarif_777_dsc">"777 daqiqa O'zbekiston bo'yicha chiquvchi qo'ng'iroqlarga. 
+777 MB mobil Internet. 
+777 chiquvchi SMS O'zbekiston bo'yicha. 
+$ 10,00 Abonent to'lovi (oyiga)"</string>
+    <string name="tarif_777_name">777</string>
+    <string name="tarif_baraka_dcs">"Kiritilgan daqiqalar to'plami – O'zbekiston bo'yicha har kuni 20 daqiqa! 
+Kiritilgan SMS-to'plam – O'zbekiston bo'yicha har kuni 20 SMS! 
+Mobil Internet – 1 MB uchun $0.05! 
+Chiquvchi qo'ng'iroqlar – daqiqasiga $0,02! 
+Andijon, Namangan, Farg'ona, Xorazm, Buxoro, Sirdaryo, Jizzax, Navoiy, Surxondaryo, Qashqadaryo viloyatlari va Qoraqalpog'iston Respublikasi abonentlari uchun. 
+Kunlik abonent to'lovi – $0.20!"</string>
+    <string name="tarif_baraka_name">BARAKA</string>
+    <string name="tarif_maxi_new_dsc">"O'zbekiston bo'yicha chiquvchi qo'ng'iroqlar uchun oyiga 1000 daqiqa. 
+Tarifga 2000 MB internet qo‘shilgan.
+Tarifga 1000ta chiquvchi SMS qo‘shilgan. 
+UMS tarmog'i doirasidagi chiquvchi qo'ng'iroqlar narxi - 0$ (1000 daqiqalik to'plamdan sarflanadi). 
+$ 15,00 obuna to'lovi (oyiga)"</string>
+    <string name="tarif_maxi_new_name">MAXI NEW</string>
+    <string name="tarif_optima_dsc">"333 daqiqa O'zbekiston bo'yicha qo'ng'iroqlar uchun 
+333 MB mobil Internet kiritilgan 
+$ 6,00 Abonent to'lovi (oyiga)"</string>
+    <string name="tarif_optima_name">OPTIMA 333</string>
+    <string name="tarif_perfect_dsc">"UNLIM O'zbekiston bo'yicha barcha chiquvchi qo'ng'iroqlarga. 
+3500 MB mobil Internet oyiga.
+$ 35,00 Abonent to'lovi (oyiga) 
+Ushbu tarifga o'tishni oy boshida amalga oshirishni tavsiya qilamiz. 
+Abonent to'lovi tarif almashgan kuni to'liq yechib olinadi."</string>
+    <string name="tarif_perfect_name">PERFECT</string>
+    <string name="tarif_start_dsc">"Tarifga kiritilgan 200MB internet paket 
+$ 3,00 Abonеnt to'lovi (oyiga)"</string>
+    <string name="tarif_start_name">TERMINAL</string>
+    <string name="tarif_ultra_dsc">"UMS tarmog'i ichida bepul qo'ng'iroqlar. 
+Boshqa mobil operatorlar va shahar telefon raqamlariga chiqish uchun 2000 daqiqa 
+3000 MB internet-trafik.
+2000 SMS. 
+Obuna to'lovi oyiga 25 $"</string>
+    <string name="tarif_ultra_name">ULTRA</string>
+    <string name="title_mini_packages_tabs">Mini</string>
+    <string name="title_minutes_packages_tabs">"Daqiqa to'plamlari"</string>
+    <string name="title_night_drive_packages_tabs">Tungi DRIVE</string>
+    <string name="title_night_packages_tabs">Tungi</string>
+    <string name="title_options_activity">"Daqiqa/sms to'plamlar"</string>
+    <string name="title_packages_activity">"Internet to'plamlar"</string>
+    <string name="title_packages_tabs">Oylik</string>
+    <string name="title_services_activity">Xizmatlar</string>
+    <string name="title_sms_packages_tabs">"SMS to'plamlari"</string>
+    <string name="title_tariffs_activity">Tariflar</string>
+    <string name="txt_support_call">"Qo'llab quvvatlash xizmati"</string>
+    <string name="upravlenie_service_alert_title">Xizmatni boshqarish</string>
+    <string name="yes">HA</string>
+    <string name="tarif_besh_name">BESH</string>
+    <string name="tarif_444_name">Gap bor!</string>
+    <string name="title_call_operator">Operatorga qo\'g\'iroq</string>
+    <string name="btn_ostatok">Qoldiqni tekshirish</string>
+    <string name="channge_tarif_444_alert">GAP BOR tarifiga o\'tasizmi?</string>
+    <string name="channge_tarif_besh_alert">BESH tarifiga o\'tasizmi?</string>
+    <string name="tarif_444_dsc">"O'zbekiston bo'yicha chiquvchi qo'ng'iroqlar uchun 444 daqiqa
+        Internet uchun 50 MB
+        "Super 0" xizmati
+        Abonent to'lovi - $4.00 oyiga"</string>
+    <string name="tarif_besh_dsc">"Buxoro, Sirdaryo, Jizzax, Navoi va Surxandaryo abonentlari uchun
+        Kunlik abonent to'lovi - $0.05!
+        Mobil internet - 1 MB uchun $0.05!
+        O'zbekiston bo'yicha chiquvchi qo'ng'iroqlar - daqiqasiga $0.02!
+        Hisob to'ldirganlik uchun bonus:
+        - $2dan $3gacha to'ldirilganlik uchun – O'zbekiston bo'yicha 100 SMS
+        - $3 va undan ko'proqqa to'ldirilganlik uchun - O'zbekiston bo'yicha 200 SMS"</string>
+</resources>

@@ -10,19 +10,16 @@
     <string name="btn_call_alert_title">Позвонить?</string>
     <string name="btn_options">Пакеты минут/смс</string>
     <string name="btn_ostatok_trafika">Проверить остаток трафика</string>
-    <string name="btn_ostatok">Проверить остаток</string>
     <string name="btn_pack">Пакеты</string>
     <string name="btn_packages">Интернет пакеты</string>
     <string name="btn_services">Услуги</string>
     <string name="btn_shop">Купить</string>
     <string name="btn_tariffs">Тарифы</string>
     <string name="change_tarif_btn">Перейти</string>
-    <string name="channge_tarif_besh_alert">Перейти на тарифный план BESH?</string>
-    <string name="channge_tarif_444_alert">Перейти на тарифный план GAP BOR?</string>
     <string name="channge_tarif_555_alert">Перейти на тарифный план 555?</string>
-    <string name="channge_tarif_777_alert">Перейти на тарифный план 777?</string>
+    <string name="channge_tarif_777_alert">Перейти на тарифный план 777 ?</string>
     <string name="channge_tarif_alert">Смена тарифа</string>
-    <string name="channge_tarif_baraka_alert">Перейти на тарифный план BARAKA?</string>
+    <string name="channge_tarif_baraka_alert">Перейти на тарифный план BARAKA ?</string>
     <string name="channge_tarif_maxi_new_alert">Перейти на тарифный план MAXI NEW?</string>
     <string name="channge_tarif_optima_alert">Перейти на тарифный план OPTIMA 333?</string>
     <string name="channge_tarif_perfect_alert">Перейти на тарифный план PERFECT?</string>
@@ -38,7 +35,7 @@
     <string name="main_app_title">Мой UMS</string>
     <string name="mini_packages_100_mb">Мини 100 Mb</string>
     <string name="mini_packages_50_mb">Мини 50 Mb</string>
-    <string name="mini_packages_dsc">Срок действия интернет пакетов 1 сутки</string>
+    <string name="mini_packages_dsc">Срок действия всех мини интернет пакетов 1 сутки</string>
     <string name="minutes_120">120 Минут</string>
     <string name="minutes_180">180 Минут</string>
     <string name="minutes_300">300 Минут</string>
@@ -75,30 +72,27 @@
     <string name="send_to">Поделиться</string>
     <string name="service_2_line_dsc">Режим ожидания вызова позволяет в процессе разговора с другим абонентом ответить на входящий звонок (либо позвонить другому абоненту) и удержать поступивший вызов до завершения текущего разговора, то есть поочерёдно разговаривать с двумя абонентами.</string>
     <string name="service_2_line_name">Ожидание и удержание вызова</string>
-    <string name="service_4gLte_dsc">"4G LTE в любой точке города Ташкента!
-Интернет UMS на 4G LTE скоростях без лишних затрат!
+    <string name="service_4gLte_dsc">"4G LTE в любой точке города Ташкента! 
+Интернет UMS на 4G LTE скоростях без лишних затрат! 
 Стоимость подключения услуги – $0,00"</string>
     <string name="service_4gLte_name">4G LTE</string>
     <string name="service_active_checks">Проверка активных услуг</string>
     <string name="service_active_checks_dsc">USSD - Команда *140# дает возможность проверить активные услуги</string>
-    <string name="service_anti_aon_dsc">"Использование услуги «Антиопределитель номера»:
-Абонентская плата - $0,10 в день
+    <string name="service_anti_aon_dsc">"Использование услуги «Антиопределитель номера»: 
+Абонентская плата - $0,10 в день 
 Включение/отключение услуги «Антиопределитель номера» - бесплатно."</string>
     <string name="service_anti_aon_name">АнтиАОН</string>
-    <string name="service_family_dsc">"Абонентская плата за пользование услугой - $0,10 в день.
-Стоимость исходящего звонка абонентам МТС в Российской Федерации, Украине, Белоруссии и Туркменистане, а также VIVACell-MTS в Армении - $0,25 за минуту разговора"</string>
+    <string name="service_family_dsc">Абонентская плата за пользование услугой - $0,10 в день. Стоимость исходящего звонка абонентам МТС в Российской Федерации, Украине, Белоруссии и Туркменистане, а также VIVACell-MTS в Армении - $0,25 за минуту разговора</string>
     <string name="service_family_name">Услуга FAMILY</string>
-    <string name="service_qarz_dsc">"Данная услуга позволяет получить на свой счет $3 для дальнейшего использования на услуги связи в счет будущей оплаты, сроком на 3 дня.
+    <string name="service_qarz_dsc">"Данная услуга позволяет получить на свой счет $3 для дальнейшего использования на услуги связи в счет будущей оплаты, сроком на 3 дня. 
 По истечении срока действия услуги «Обещанный платеж» со счета будет списана сумма равная $3,5."</string>
     <string name="service_qarz_name">Обещанный платеж</string>
     <string name="service_rouming_calls_dsc">Тарифы на международные звонки Центральная Азия (Таджикистан,Казахстан,Туркменистан,Кыргызстан) - 0,55 Россия и остальные страны СНГ - 0,75 Европа - 1,65 Азия - 2,05 Остальной мир - 1,95</string>
     <string name="service_rouming_calls_name">Международные Звонки</string>
-    <string name="service_super_0_dsc">"УСЛУГА «Super 0», предназначен для осуществления бесплатных исходящих звонков на сеть мобильного оператора UMS по Республике Узбекистан;
-стоимость услуги всего — $1, снимается в момент активации, при положительном балансе! При подключенной услуге «Super 0», услуга «Конференц-связь» недоступна;
-Срок действия услуги неограничен;"</string>
+    <string name="service_super_0_dsc">УСЛУГА «Super 0», предназначен для осуществления бесплатных исходящих звонков на сеть мобильного оператора UMS по Республике Узбекистан; стоимость услуги всего — $1, снимается в момент активации, при положительном балансе! При подключенной услуге «Super 0», услуга «Конференц-связь» недоступна; Срок действия услуги неограничен;</string>
     <string name="service_super_0_name">Super 0</string>
-    <string name="service_vam_zvonili_dsc">"При подключении нового номера абонентам предоставляется возможность активировать услугу бесплатно.
-По истечению 30 дней услуга будет тарифицироваться по $0,02 в сутки.
+    <string name="service_vam_zvonili_dsc">"При подключении нового номера абонентам предоставляется возможность активировать услугу бесплатно. 
+По истечению 30 дней услуга будет тарифицироваться по $0,02 в сутки. 
 Абонентская плата за услугу «Вам звонили / Я на связи» для действующих абонентов - $0,02 в сутки."</string>
     <string name="service_vam_zvonili_name">Вам звонили &amp; Я на связи</string>
     <string name="set_language">Язык</string>
@@ -117,7 +111,7 @@
     <string name="shop_5000_night_package">Ночной пакет на 5000 Mb</string>
     <string name="shop_5000_package">Интернет пакет на 12500 Mb</string>
     <string name="shop_500_package">Интернет пакет на 1250 Mb</string>
-    <string name="shop_button_alert">Купить</string>
+    <string name="shop_button_alert">Купить?</string>
     <string name="shop_drive_1_day_package">Ночной DRIVE на 1 сутку</string>
     <string name="shop_drive_30_day_package">Ночной DRIVE на 30 суток</string>
     <string name="shop_drive_7_day_package">Ночной DRIVE на 7 суток</string>
@@ -128,60 +122,46 @@
     <string name="sms_packages_100">Смс пакет 100</string>
     <string name="sms_packages_300">Смс пакет 300</string>
     <string name="status">Проверка статуса</string>
-    <string name="tarif_444_dsc">"444 минут на исходящие звонки по Узбекистану
-50 Мб включенного мобильного интернета
-Услуга "Супер 0"
-$ 4,00 Абонентская плата (в месяц)"</string>
-    <string name="tarif_444_name">Gap bor!</string>
-    <string name="tarif_555_dsc">"555 минут на исходящие звонки по Узбекистану
-555 Мб включенного мобильного интернета
-555 исходящих SMS по Узбекистану
+    <string name="tarif_555_dsc">"555 минут на исходящие звонки по Узбекистану 
+555 Мб включенного мобильного интернета 
+555 исходящих SMS по Узбекистану 
 $ 8,00 Абонентская плата (в месяц)"</string>
     <string name="tarif_555_name">555</string>
-    <string name="tarif_777_dsc">"777 минут на исходящие звонки по Узбекистану
-777 Мб включенного мобильного интернета
-777 исходящих SMS по Узбекистану
+    <string name="tarif_777_dsc">"777 минут на исходящие звонки по Узбекистану 
+777 Мб включенного мобильного интернета 
+777 исходящих SMS по Узбекистану 
 $ 10,00 Абонентская плата (в месяц)"</string>
     <string name="tarif_777_name">777</string>
-    <string name="tarif_baraka_dcs">"Ежедневная абонентская плата – всего $0,20 в день!
-20 минут ежедневно на исходящие звонки по Узбекистану
-20 SMS ежедневно по Узбекистану·
+    <string name="tarif_baraka_dcs">"Ежедневная абонентская плата – всего $0,20 в день! 
+20 минут ежедневно на исходящие звонки по Узбекистану 
+20 SMS ежедневно по Узбекистану· 
 Для новых и существующих абонентов Андижанской, Наманганской, Ферганской, Хорезмской, Кашкадарьинской, Бухарской, Сырдарьинской, Джизакской, Навоийской, Сурхандарьинская областей, г. Чирчик, г. Янгиюль и Республики Каракалпакстан."</string>
     <string name="tarif_baraka_name">BARAKA</string>
-    <string name="tarif_maxi_new_dsc">"1000 минут в месяц исходящих звонков по Узбекистану
+    <string name="tarif_maxi_new_dsc">"1000 минут в месяц исходящих звонков по Узбекистану 
 2000 MB Интернета включено в тариф
-1000 исходящих SMS включено в тариф
+1000 исходящих SMS включено в тариф 
 $ 15,00 Абонентская плата (в месяц)"</string>
     <string name="tarif_maxi_new_name">MAXI NEW</string>
-    <string name="tarif_optima_dsc">"333 минут на исходящие звонки по Узбекистану
-333 Мб включенного мобильного интернета
+    <string name="tarif_optima_dsc">"333 минут на исходящие звонки по Узбекистану 
+333 Мб включенного мобильного интернета 
 $ 6,00 Абонентская плата (в месяц)"</string>
     <string name="tarif_optima_name">OPTIMA 333</string>
-    <string name="tarif_besh_name">BESH</string>
-    <string name="tarif_besh_dsc">"Для абонентов Бухарской, Сырдарьинской, Джизакской, Навоийской и Сурхандарьинской областей
-Ежедневная абонентская плата - $0,05!
-Мобильный интернет – по $0,05 за 1 Мб!
-Исходящие минуты по Узбекистану –за $0,02!
-Бонусы за единоразовое пополнение баланса:
-- от $2 до $3 Вы получаете 100 SMS по Узбекистану!
-- от $3 и более Вы получаете 200 SMS по Узбекистану!</string>
-    <string name="tarif_perfect_dsc">"UNLIM на все исходящие звонки по Узбекистану
+    <string name="tarif_perfect_dsc">"UNLIM на все исходящие звонки по Узбекистану 
 3500 Мб включенного мобильного интернета в месяц
-$ 35,00 Абонентская плата (в месяц)
+$ 35,00 Абонентская плата (в месяц) 
 Рекомендуем смену тарифа в начале месяца так как Первоначальный авансовый платеж при подключении на тарифный план «Perfect» $35 (размер абонентской платы в полном объеме); не зависимо от того, какого числа месяца производится подключение на тарифный план"</string>
     <string name="tarif_perfect_name">PERFECT</string>
-    <string name="tarif_start_dsc">"200 Мб включенного мобильного интернета
+    <string name="tarif_start_dsc">"200 Мб включенного мобильного интернета 
 $ 3,00 Абонентская плата (в месяц)"</string>
     <string name="tarif_start_name">TERMINAL</string>
-    <string name="tarif_ultra_dsc">"Бесплатные звонки внутри сети «UMS»
-2000 исходящих минут на сети других мобильных операторов и на городские номера
+    <string name="tarif_ultra_dsc">"Бесплатные звонки внутри сети «UMS» 
+2000 исходящих минут на сети других мобильных операторов и на городские номера 
 3000 МВ интернет-трафика
-2000 SMS
+2000 SMS 
 $ 25 Абонентская плата (в месяц)"</string>
     <string name="tarif_ultra_name">ULTRA</string>
     <string name="title_mini_packages_tabs">Мини пакеты</string>
     <string name="title_minutes_packages_tabs">Пакеты минут</string>
-    <string name="title_call_operator">Звонок оператору</string>
     <string name="title_night_drive_packages_tabs">Ночной DRIVE</string>
     <string name="title_night_packages_tabs">Ночные пакеты</string>
     <string name="title_options_activity">Пакеты минут/смс</string>
@@ -193,6 +173,21 @@ $ 25 Абонентская плата (в месяц)"</string>
     <string name="txt_support_call">Служба поддержки</string>
     <string name="upravlenie_service_alert_title">Управления услугой</string>
     <string name="yes">ДА</string>
-    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="tarif_besh_name">BESH</string>
+    <string name="tarif_444_name">Gap bor!</string>
+    <string name="tarif_besh_dsc">"Для абонентов Бухарской, Сырдарьинской, Джизакской, Навоийской и Сурхандарьинской областей
+        Ежедневная абонентская плата - $0,05!
+        Мобильный интернет – по $0,05 за 1 Мб!
+        Исходящие минуты по Узбекистану –за $0,02!
+        Бонусы за единоразовое пополнение баланса:
+        - от $2 до $3 Вы получаете 100 SMS по Узбекистану!
+        - от $3 и более Вы получаете 200 SMS по Узбекистану!</string>
+    <string name="title_call_operator">Звонок оператору</string>
+    <string name="btn_ostatok">Проверить остаток</string>
+    <string name="channge_tarif_444_alert">Перейти на тарифный план GAP BOR?</string>
+    <string name="channge_tarif_besh_alert">Перейти на тарифный план BESH?</string>
+    <string name="tarif_444_dsc">\"444 минут на исходящие звонки по Узбекистану
+        50 Мб включенного мобильного интернета
+        Услуга "Супер 0"
+        $ 4,00 Абонентская плата (в месяц)"</string>
 </resources>
