@@ -60,13 +60,13 @@
     <string name="night_drive_7_days">7 суток</string>
     <string name="night_drive_dsc">Услуга «Ночной DRIVE» позволяет абонентам неограниченно пользоваться интернетом каждую ночь с 0:00 до 8:00</string>
     <string name="no">НЕТ</string>
-    <string name="package_1000">Пакет 2500 Mb</string>
-    <string name="package_10000">Пакет 25000 Mb</string>
-    <string name="package_2000">Пакет 5000 Mb</string>
-    <string name="package_300">Пакет 750 Mb</string>
-    <string name="package_3000">Пакет 7500 Mb</string>
-    <string name="package_500">Пакет 1250 Mb</string>
-    <string name="package_5000">Пакет 12500 Mb</string>
+    <string name="package_1000">Пакет 1000 Mb</string>
+    <string name="package_10000">Пакет 10000 Mb</string>
+    <string name="package_2000">Пакет 2000 Mb</string>
+    <string name="package_300">Пакет 300 Mb</string>
+    <string name="package_3000">Пакет 3000 Mb</string>
+    <string name="package_500">Пакет 500 Mb</string>
+    <string name="package_5000">Пакет 5000 Mb</string>
     <string name="request_title">Нужно разрешение!</string>
     <string name="request_title_message">Приложение требует разрешение, для того что бы совершать ussd запросы</string>
     <string name="send_to">Поделиться</string>
@@ -190,4 +190,10 @@ $ 25 Абонентская плата (в месяц)"</string>
         50 Мб включенного мобильного интернета
         Услуга "Супер 0"
         $ 4,00 Абонентская плата (в месяц)"</string>
+    <string name="tarif_connect_name">CONNECT</string>
+    <string name="tarif_connect_dsc">"  2500 МБ в месяц
+        2500 МБ ночного интернета в месяц
+        Бонус при подключении: 500 МБ в месяц в течение 6 месяцев!
+        Абонентская плата $ 12 в месяц"</string>
+    <string name="change_tarif_connect_alert">Перейти на тарифный план CONNECT?</string>
 </resources>

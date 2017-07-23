@@ -60,13 +60,13 @@
     <string name="night_drive_7_days">7 Sutka</string>
     <string name="night_drive_dsc">Tungi DRIVE xizmati abonentlarga har tun soat 00:00dan 08:00gacha internetdan cheksiz foydalanish imkonini beradi</string>
     <string name="no">"YO'Q"</string>
-    <string name="package_1000">\"To\'plam 2500 Mb\"</string>
-    <string name="package_10000">\"To\'plam 25000 Mb\"</string>
-    <string name="package_2000">\"To\'plam 5000 Mb\"</string>
-    <string name="package_300">\"To\'plam 750 Mb\"</string>
-    <string name="package_3000">\"To\'plam 7500 Mb\"</string>
-    <string name="package_500">\"To\'plam 1250 Mb\"</string>
-    <string name="package_5000">\"To\'plam 12500 Mb\"</string>
+    <string name="package_1000">\"To\'plam 1000 Mb\"</string>
+    <string name="package_10000">\"To\'plam 10000 Mb\"</string>
+    <string name="package_2000">\"To\'plam 2000 Mb\"</string>
+    <string name="package_300">\"To\'plam 300 Mb\"</string>
+    <string name="package_3000">\"To\'plam 3000 Mb\"</string>
+    <string name="package_500">\"To\'plam 500 Mb\"</string>
+    <string name="package_5000">\"To\'plam 5000 Mb\"</string>
     <string name="request_title">Ruxsat kerak!</string>
     <string name="request_title_message">"USSD so'rovlarni amalga oshirish uchun, ushbu ilovaga ruxsat kerak"</string>
     <string name="send_to">Ulashish</string>
@@ -200,4 +200,10 @@ Obuna to'lovi oyiga 25 $"</string>
         Hisob to'ldirganlik uchun bonus:
         - $2dan $3gacha to'ldirilganlik uchun – O'zbekiston bo'yicha 100 SMS
         - $3 va undan ko'proqqa to'ldirilganlik uchun - O'zbekiston bo'yicha 200 SMS"</string>
+    <string name="tarif_connect_name">CONNECT</string>
+    <string name="tarif_connect_dsc">"  2500 MB (kechayu-kunduz) oyiga.
+        2500 MB (tungi 00:00 dan ertalab 08:00 gacha) oyiga.
+        Yangi ulangan abonentlarga 6 oy davomida har oy 500 MB dan bonus!
+        Abonent to‘lovi oyiga $12"</string>
+    <string name="change_tarif_connect_alert">CONNECT tarifiga o\'tasizmi?</string>
 </resources>

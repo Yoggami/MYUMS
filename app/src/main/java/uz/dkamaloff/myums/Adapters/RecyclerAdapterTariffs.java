@@ -26,13 +26,13 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 	private Builder mBuilder;
 
 	public RecyclerAdapterTariffs(Context context) {
-		this.images = new int[]{R.drawable.icon_besh, R.drawable.icon_terminal, R.drawable.icon_333, R.drawable.icon_444, R.drawable.icon_555, R.drawable.icon_777, R.drawable.icon_maxi, R.drawable.icon_ultra, R.drawable.icon_perfect, R.drawable.icon_baraka};
+		this.images = new int[]{R.drawable.icon_connect, R.drawable.icon_besh, R.drawable.icon_terminal, R.drawable.icon_333, R.drawable.icon_444, R.drawable.icon_555, R.drawable.icon_777, R.drawable.icon_maxi, R.drawable.icon_ultra, R.drawable.icon_perfect, R.drawable.icon_baraka};
 		this.context = context;
 	}
 
 	static {
-		titles = new int[]{R.string.tarif_besh_name, R.string.tarif_start_name, R.string.tarif_optima_name, R.string.tarif_444_name, R.string.tarif_555_name, R.string.tarif_777_name, R.string.tarif_maxi_new_name, R.string.tarif_ultra_name, R.string.tarif_perfect_name, R.string.tarif_baraka_name};
-		details = new int[]{R.string.tarif_besh_dsc, R.string.tarif_start_dsc, R.string.tarif_optima_dsc, R.string.tarif_444_dsc, R.string.tarif_555_dsc, R.string.tarif_777_dsc, R.string.tarif_maxi_new_dsc, R.string.tarif_ultra_dsc, R.string.tarif_perfect_dsc, R.string.tarif_baraka_dcs};
+		titles = new int[]{R.string.tarif_connect_name, R.string.tarif_besh_name, R.string.tarif_start_name, R.string.tarif_optima_name, R.string.tarif_444_name, R.string.tarif_555_name, R.string.tarif_777_name, R.string.tarif_maxi_new_name, R.string.tarif_ultra_name, R.string.tarif_perfect_name, R.string.tarif_baraka_name};
+		details = new int[]{R.string.tarif_connect_dsc, R.string.tarif_besh_dsc, R.string.tarif_start_dsc, R.string.tarif_optima_dsc, R.string.tarif_444_dsc, R.string.tarif_555_dsc, R.string.tarif_777_dsc, R.string.tarif_maxi_new_dsc, R.string.tarif_ultra_dsc, R.string.tarif_perfect_dsc, R.string.tarif_baraka_dcs};
 	}
 
 	@Override
@@ -67,6 +67,16 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 
 		class C02541 implements View.OnClickListener {
 			final RecyclerAdapterTariffs val$this$0;
+
+			class C02449 implements DialogInterface.OnClickListener {
+				C02449() {
+
+				}
+
+				public void onClick(DialogInterface dialog, int which) {
+					((Activity) RecyclerAdapterTariffs.this.context).startActivityForResult(new Intent("android.intent.action.CALL", Uri.parse("tel:" + ("*171*100*010900119*1" + Uri.encode("#")))), 1);
+				}
+			}
 
 			class C02450 implements DialogInterface.OnClickListener {
 				C02450() {
@@ -192,13 +202,22 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 					case 0:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
+						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.change_tarif_connect_alert);
+						RecyclerAdapterTariffs.this.mBuilder.setCancelable(true);
+						RecyclerAdapterTariffs.this.mBuilder.setPositiveButton(R.string.yes, new C02449());
+						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
+						RecyclerAdapterTariffs.this.mBuilder.create().show();
+						break;
+					case 1:
+						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
+						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_besh_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setCancelable(true);
 						RecyclerAdapterTariffs.this.mBuilder.setPositiveButton(R.string.yes, new C02450());
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 1:
+					case 2:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_start_alert);
@@ -207,7 +226,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 2:
+					case 3:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_optima_alert);
@@ -216,7 +235,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 3:
+					case 4:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_444_alert);
@@ -225,7 +244,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 4:
+					case 5:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_555_alert);
@@ -234,7 +253,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 5:
+					case 6:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_777_alert);
@@ -243,7 +262,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 6:
+					case 7:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_maxi_new_alert);
@@ -252,7 +271,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 7:
+					case 8:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_ultra_alert);
@@ -261,7 +280,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 8:
+					case 9:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_perfect_alert);
@@ -270,7 +289,7 @@ public class RecyclerAdapterTariffs extends Adapter<RecyclerAdapterTariffs.ViewH
 						RecyclerAdapterTariffs.this.mBuilder.setNegativeButton(R.string.no, new C02462());
 						RecyclerAdapterTariffs.this.mBuilder.create().show();
 						break;
-					case 9:
+					case 10:
 						RecyclerAdapterTariffs.this.mBuilder = new Builder(RecyclerAdapterTariffs.this.context);
 						RecyclerAdapterTariffs.this.mBuilder.setTitle(R.string.channge_tarif_alert);
 						RecyclerAdapterTariffs.this.mBuilder.setMessage(R.string.channge_tarif_baraka_alert);
